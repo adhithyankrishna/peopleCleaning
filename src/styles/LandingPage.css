@@ -1,0 +1,189 @@
+.LandingPage{
+    margin-bottom: 9%;
+    height: 90vh;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 8%;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(51, 67, 80);
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    position: relative;
+}
+
+
+.buttondiv{
+    position: absolute;
+    right:  15%; 
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logodiv {
+    height: 100%;
+    width: 6%;
+    margin-left: 3%;
+    display: flex; /* Added */
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin: 4%;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+    outline: none;
+    border: none;
+    font-size: 120%;
+    width: fit-content;
+}
+
+.btn:hover{
+    color: rgb(148, 187, 219);
+    transform: scale(1.2); /* Zoom in by 10% */
+    transition: transform 0.3s ease;
+}
+
+.logoimg {
+    height: 100%;
+    display: block; 
+    z-index: 11;
+}
+.container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.mainimg {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.maintitle {
+    color: rgb(214, 235, 247);
+    font-size: 4vw;
+    overflow-y: scroll;
+    top: 6%;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    height: 90%;
+    cursor: default;
+ 
+}
+
+/* Hide the scrollbar for WebKit browsers */
+.maintitle::-webkit-scrollbar {
+    display: none;
+}
+
+.l-content {
+ font-size: 1.3rem; 
+ color: white;
+ font-weight: 600;
+ margin-bottom: 10%;
+}
+
+.mainimg :hover + .maintitle{
+    transform: scale(1.07); /* Zoom in by 10% */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+/* Define styles for default list */
+ul.hidden {
+  display: none;
+  
+}
+
+/* Define styles for list on large screens */
+@media (min-width: 1024px) {
+  ul.lg-flex {
+    display: flex;
+  }
+  ul.lg-items-center {
+    align-items: center;
+  }
+  ul.gap-5 {
+    gap: 1.25rem;
+  }
+  ul.text-sm {
+    font-size: 0.875rem;
+  }
+}
+
+/* Define styles for list items */
+ul li {
+
+  list-style-type: none; /* Remove bullet points */
+}
+
+/* Define styles for list item links */
+ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0.25rem;
+  font-size: 140%;
+  transition: all 0.3s ease; /* Add transition effect */
+}
+
+/* Define styles for list item link hover */
+ul li a:hover {
+  color: #a0aec0; /* Change color on hover */
+}
+
+
+.button{
+    position: absolute;
+    right: 10%;
+}
+
+
+.ham{
+    display: none;
+}
+
+
+.card-h{
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  .maintitle {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .ham{
+    display:block;
+  }
+  
+}
+
+@media screen and (max-aspect-ratio: 16/9) {
+  .maintitle {
+   
+  }
+}
+
+@media screen and (max-aspect-ratio: 4/3) {
+  .maintitle {
+   
+  }
+}
