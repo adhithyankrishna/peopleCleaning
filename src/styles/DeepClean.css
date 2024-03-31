@@ -1,0 +1,59 @@
+.deep-clean{
+    margin-top: 0%;  
+    background-color:  rgba(240, 244, 249, 1);
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 5%;  
+}
+
+.image2{
+    object-fit: cover;
+    
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:  30px;
+    overflow: hidden;
+}
+
+.content{
+    background-color: rgba(51, 67, 80, 1);
+    padding: 5%;
+    color: white;
+    font-size: 1.3rem;
+    width: 50%;
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+@media screen and (max-width: 800px) {
+ 
+.image2{
+    object-fit: cover;
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+   opacity: 0.3;
+   
+}
+
+.content{
+    position: relative;
+    background-color: rgba(126, 136, 144, 0);
+    padding: 5%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgba(13, 13, 31, 0.579);
+    
+}
+}

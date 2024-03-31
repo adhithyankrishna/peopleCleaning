@@ -1,0 +1,32 @@
+.footer {
+  background-color: rgba(51, 67, 80, 1);
+  color: white;
+  padding: 5%;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}

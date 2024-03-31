@@ -1,0 +1,65 @@
+.employee{
+  margin-top: 2%;
+
+}
+
+.emp-container{
+    display: flex;
+    flex-direction: row;
+    padding: 2%
+}
+
+.emp-title{
+    background-color: rgb(177, 193, 208);
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 5%;
+    font-weight: 450;
+    
+}
+
+.emp-content{
+    background-color:rgb(143, 148, 153); 
+    font-size: 150%;
+    font-weight: 600;
+    color: white;
+    padding: 5%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+ .emp-container{
+ 
+    flex-direction: column;
+   
+}
+
+.emp-title{
+    border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+  
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.emp-content{
+    
+   
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+}
