@@ -7,6 +7,9 @@ const DeepClean = () => {
     <div className="deep-clean">
       <div className="container">
         <div className="content">
+          <h1>
+            Breathe Easy: Transform Your Home with Our Deep Cleaning Services
+          </h1>
           <p>
             Many people underestimate the significant health benefits of a deep
             clean. Here's how our services can significantly improve your indoor

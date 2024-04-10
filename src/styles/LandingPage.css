@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+@font-face {
+  font-family: vg;
+  src: url('../asset/fonts/Lavish.ttf') format('opentype');
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -74,26 +79,31 @@
     overflow: hidden;
 }
 
-.maintitle {
+.maintitle  {
     color: rgb(214, 235, 247);
-    font-size: 4vw;
     overflow-y: scroll;
     top: 6%;
     width: 80%;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     left: 10%;
     position: absolute;
     height: 90%;
     cursor: default;
  
 }
-
+.maintitle h1{
+  font-size: 600%;
+}
+.maintitle h2{
+  font-size: 300%;
+}
 /* Hide the scrollbar for WebKit browsers */
 .maintitle::-webkit-scrollbar {
     display: none;
 }
 
 .l-content {
- font-size: 1.3rem; 
+ font-size:130%;
  color: white;
  font-weight: 600;
  margin-bottom: 10%;
@@ -165,7 +175,17 @@ ul li a:hover {
 
 @media screen and (max-width: 800px) {
   .maintitle {
-    font-size: 4vw;
+    font-weight:lighter;
+    }
+
+    .maintitle h1{
+      font-size: 350%;
+    }
+  .maintitle h2{
+    font-size: 200%;
+  }
+  .l-content{
+    font-size:  18px;
   }
 }
 

@@ -3,11 +3,10 @@ import { useRef } from "react";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
+import {  Link } from "react-router-dom";
 import { routes } from "./Routes";
 
 import "../styles/NavMobile.css";
-
-
 export const NavMobile = () => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef(null);
@@ -43,16 +42,17 @@ export const NavMobile = () => {
                     key={route.title}
                     className="card-h"
                   >
-                    <a
+                    <Link
+                      to="/Register"
                       onClick={() => setOpen((prev) => !prev)}
                       className={
                         "flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950"
                       }
-                      href={route.href}
                     >
+                      
                       <span className="flex gap-1 text-lg">{route.title}</span>
                       <Icon className="text-xl" />
-                    </a>
+                    </Link>
                   </motion.li>
                 );
               })}

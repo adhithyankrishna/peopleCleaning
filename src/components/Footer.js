@@ -7,40 +7,53 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
-import "../styles/Footer.css"; // Make sure to create this CSS file for styling
+import "../styles/Footer.css";
+import Enq from "../components/Enq";
 
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="engdiv"><Enq /></div>
       <div className="footer-container">
         <div className="footer-column">
           <div className="footer-item">
             <FaMapMarkerAlt className="icon" />
-            <span>123 Street Name, City, Country</span>
+            <a href="https://www.google.com/maps/place/A.S+ORGANICS+%26A.S+PAN+SERVICES,+XEROX+,+PASSPORTSERVICES+,visa/@11.0144465,77.0234894,21z/data=!4m9!1m2!2m1!1s156+Shivaram+Nagar+Ramanathapuram+Coimbatore!3m5!1s0x3ba8576ba3e00e4d:0x408014a85f59b2b4!8m2!3d11.0145547!4d77.0234864!16s%2Fg%2F11kd5bp3tv?entry=ttu">
+              <span className="link">
+                156, Shivaram Nagar, Ramanathapuram, Coimbatore
+              </span>
+            </a>
           </div>
           <div className="footer-item">
             <FaWhatsapp className="icon" />
-            <span>+1234567890</span>
+            <a href="tel:9342698063">
+              <span className="link">9342698063</span>
+            </a>
           </div>
           <div className="footer-item">
             <FaPhone className="icon" />
-            <span>(123) 456-7890</span>
+            <a href="tel:9342698063">
+              <span className="link">9342698063</span>
+            </a>
           </div>
         </div>
         <div className="footer-column">
           <div className="footer-item">
             <FaEnvelope className="icon" />
-            <span>info@example.com</span>
+
+            <span className="link">info@peoplecleaning.com</span>
           </div>
           <div className="footer-item">
             <FaInstagram className="icon" />
-            <span>@yourinstagram</span>
+            <a href="https://www.instagram.com/adhithyan_krishna/">
+              <span className="link">@peoplecleaning</span>
+            </a>
           </div>
         </div>
         <div className="footer-column">
           <div className="footer-item">
             <FaYoutube className="icon" />
-            <span>YouTube Channel</span>
+            <span className="link">peoplecleaning</span>
           </div>
         </div>
       </div>

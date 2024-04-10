@@ -39,6 +39,7 @@ const LandingPage = () => {
         <img src={living} alt="mainImage" className="mainimg" />
         <div className="maintitle">
           <h1>People Cleaning Services And Facility Management</h1>
+          <h2>Beyond Clean: Crafting Spaces with Care</h2>
           <p className="l-content">
             Exhausted from battling dust bunnies and a constant layer of grime?
             Worried about the hidden threats lurking in every corner –

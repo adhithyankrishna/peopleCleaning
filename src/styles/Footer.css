@@ -1,13 +1,28 @@
 .footer {
+  display: flex;
+  flex-direction: row;
   background-color: rgba(51, 67, 80, 1);
   color: white;
-  padding: 5%;
+  width: 100%;
+  padding: 1%;
+ 
+}
+
+.engdiv{
+  width: 50%;
 }
 
 .footer-container {
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+
+  align-items: end;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 110%;
 }
 
 .footer-column {
@@ -18,11 +33,27 @@
 .footer-item {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.link{
+  cursor: pointer;
 }
 
 .icon {
   margin-right: 10px;
+}
+
+.footer-item a {
+  color: white; /* Change link color to white */
+  text-decoration: none; 
+  /* Remove underline */
+}
+
+.footer-item a:visited {
+  color: white; /* Change visited link color to white */
 }
 
 @media screen and (max-width: 768px) {

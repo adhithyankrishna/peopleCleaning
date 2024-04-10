@@ -28,7 +28,7 @@
     border-radius: 30px ;
     overflow: scroll;
     display: flex;
-    color: white;
+    color:rgb(214, 235, 247);
     
 }
 .jobs-content{
@@ -45,11 +45,15 @@
 
 
 .job-card-title{
-    font-size: 120%;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(193, 220, 236);;
 }
 
 .job-card-content{
-   font-size: 90%;
+    text-align: center;
+   font-size: 100%;
+   color: white;
 }
 
 .jobs-card:hover {

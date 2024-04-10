@@ -1,25 +1,19 @@
-import './App.css';
-import LandingPage from './components/LandingPage';
-import DeepClean from './components/DeepClean';
-import Semi from './components/Semi';
-import Jobs from './components/Jobs';
-import Time from './components/Time';
-import Employee from './components/Employee';
-import Enq from './components/Enq';
-import Footer from './components/Footer';
-
+import "./App.css";
+import Main from "./components/main";
+import Register from "./components/Register";
+import Login from "./components/Login";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
-      <DeepClean />
-      <Semi />
-      <Jobs />
-      <Time />
-      <Employee />
-      <Enq />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/Register" element={<Register />} />
+          <Route path="/Login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,19 +1,14 @@
-import { FaUserPlus, FaSignInAlt, FaPhoneAlt } from "react-icons/fa";
+import { FaUserPlus, FaSignInAlt } from "react-icons/fa";
 
 export const routes = [
   {
     title: "Register",
-    href: "#",
+    href: "/Register",
     Icon: FaUserPlus,
   },
   {
     title: "Login",
-    href: "#",
+    href: "/Login",
     Icon: FaSignInAlt,
-  },
-  {
-    title: "Contact Us",
-    href: "#",
-    Icon: FaPhoneAlt,
   },
 ];

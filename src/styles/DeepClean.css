@@ -1,6 +1,5 @@
 .deep-clean{
     margin-top: 0%;  
-    background-color:  rgba(240, 244, 249, 1);
     width: 100%;
 }
 
@@ -22,12 +21,15 @@
 .content{
     background-color: rgba(51, 67, 80, 1);
     padding: 5%;
-    color: white;
-    font-size: 1.3rem;
+    color: rgb(214, 235, 247);
+    font-size: 1vvw;
     width: 50%;
-
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+}
+
+.content h1{
+    font-size: 2vw;
 }
 
 
@@ -50,7 +52,6 @@
     padding: 5%;
     z-index: 1;
     color: rgb(255, 255, 255);
-    
     width: 100%;
     border-radius: 30px;
     background-color: rgba(13, 13, 31, 0.579);

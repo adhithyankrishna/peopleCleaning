@@ -5,7 +5,7 @@ const Enq = () => {
   return (
     <div className="Enq">
       <div className="form-container">
-        <div className="Enq-title">Reach Out to Us</div>
+        <div className="Enq-title">Contact us</div>
         <form>
           <div className="form-row">
             <label htmlFor="name">Name:</label>
