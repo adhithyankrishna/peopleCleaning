@@ -56,8 +56,17 @@
   color: white; /* Change visited link color to white */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .engdiv{
+  width: 100%;
   }
 }

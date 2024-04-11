@@ -1,5 +1,5 @@
 .LandingPage{
-    margin-bottom: 9%;
+    margin-bottom: 0%;
     height: 90vh;
     width: 100%;
 }
@@ -57,16 +57,22 @@
 }
 
 .logoimg {
+   margin-top: 10%;
     height: 100%;
+    width: auto;
     display: block; 
     z-index: 11;
 }
 .container {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
     height: 80vh;
-    
 }
 
 .mainimg {
