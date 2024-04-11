@@ -27,7 +27,7 @@
   padding: 1%;
 }
 .subheading{
-  font-size: 14px;
+  font-size: 110%;
 }
 .semi-card {
   background-color: rgba(51, 67, 80, 0);
@@ -39,7 +39,7 @@
 }
 
 .heading{
-    font-size: 18px;
+    font-size: 200%;
     margin: 2%;
 }
 

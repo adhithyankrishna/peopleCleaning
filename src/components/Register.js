@@ -9,7 +9,7 @@ const Register = () => {
       <div className="form-group">
         <div className="image-div">
           <span></span>
-          <img src={girl} alt="girl image" />
+          <img src={girl} alt="girl__image" />
         </div>
         <div className="form-container">
           <h1 className="reg-title">
