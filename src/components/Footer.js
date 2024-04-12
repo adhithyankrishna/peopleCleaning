@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
           <div className="footer-item">
             <FaInstagram className="icon" />
-            <a href="https://www.instagram.com/adhithyan_krishna/">
+            <a href="https://www.instagram.com/peoplecleaningservices/">
               <span className="link">@peoplecleaningservices</span>
             </a>
           </div>
