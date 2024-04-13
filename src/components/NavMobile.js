@@ -17,6 +17,7 @@ export const NavMobile = () => {
     <div ref={ref} className="lg:hidden ">
       <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       <AnimatePresence>
+        
         {isOpen && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -26,9 +27,10 @@ export const NavMobile = () => {
             className="popup"
           >
             <ul className="grid gap-2">
+            
               {routes.map((route, idx) => {
                 const { Icon } = route;
-
+                
                 return (
                   <motion.li
                     initial={{ scale: 0, opacity: 0 }}
